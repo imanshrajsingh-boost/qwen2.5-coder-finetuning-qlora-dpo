@@ -21,6 +21,7 @@ pipeline_tag: text-generation
 ---
 
 # Qwen2.5-Coder-1.5B-AWQ (Custom Fine-Tuned & DPO Aligned)
+🤗 **Hugging Face Model:** [Anshrajsingh/qwen2.5-coder-1.5b-awq](https://huggingface.co/Anshrajsingh/qwen2.5-coder-1.5b-awq)
 
 A 4-bit AWQ-quantized, custom fine-tuned version of **Qwen2.5-Coder-1.5B-Instruct**, optimized for Python code generation, bug fixing, and reasoning tasks. This model went through a two-stage alignment pipeline (SFT followed by DPO) to improve both instruction-following and code quality/preference alignment, then was quantized to 4-bit AWQ for faster, lighter-weight inference.
 
